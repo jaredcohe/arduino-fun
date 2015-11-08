@@ -1,0 +1,9 @@
+# set Arduino UNO board
+# Port: /dev/tty.usbmodem1411
+# Programmer: arduino
+# Overriding Baud Rate: 115200
+
+Learning
+learning framework coursera course: https://www.coursera.org/learn/arduino-platform/home/welcome
+
+
