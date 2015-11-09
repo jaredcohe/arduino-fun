@@ -63,4 +63,3 @@ int main() {
     p = foo(2, 3);
     printf("%i", p);
 }
-
