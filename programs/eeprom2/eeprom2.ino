@@ -1,4 +1,7 @@
 #include <EEPROM.h>
+# https://www.coursera.org/learn/arduino-platform/lecture/iafeK/lecture-3-1-serial-on-arduino
+
+read from serial
 
 void setup() {
   int addr;
