@@ -55,9 +55,13 @@ void loop(){
     Wire.endTransmission();
     
     // SPIN
-    servoLeft.writeMicroseconds(1700); // SPIN - Left wheel clockwise
-    servoRight.writeMicroseconds(1700); // SPIN - Right wheel counterclockwise
-    delay(500);
+    servoLeft.writeMicroseconds(1550);
+    servoRight.writeMicroseconds(1550);
+    delay(1000);
+    servoLeft.writeMicroseconds(1450);
+    servoRight.writeMicroseconds(1450);
+    delay(1000);
+    // STOP
     servoLeft.writeMicroseconds(1500); // 1.5 ms stay-still signal
     servoRight.writeMicroseconds(1500); // 1.5 ms stay-still signal
   }
